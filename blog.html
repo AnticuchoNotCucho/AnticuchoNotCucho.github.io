@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="blog.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   </head>
+   <div class="header" style="margin-bottom: rem;">
+      <div class="row">
+         <ul class="nav" style="justify-content: space-between; background-color: #333; max-width: 100%;">
+             <li class="nav-item">
+                 <a class="nav-link" href="#" style="color: #fff; text-decoration: none; transition: color 0.3s;">
+                     Inicio
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#" style="color: #fff; text-decoration: none; transition: color 0.3s;">
+                     Productos
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#" style="color: #fff; text-decoration: none; transition: color 0.3s;">
+                     Servicios
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color: #777; text-decoration: none; cursor: not-allowed;">
+                     Contacto
+                 </a>
+             </li>
+         </ul>
+     </div>
+   <body>
+      </div>
+      <div class="row">
+         <img src="banner.png" style="margin-bottom: 4rem;">
+
+      </div>
+      <style>
+         /* Estilo para la lista desplegable */
+         .form-select {
+         transition: all 0.3s;
+         }
+         .form-select:focus {
+         transform: scale(1.05);
+         border-color: #007BFF;
+         box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+         }
+         /* Estilo para los contenedores de las listas desplegables */
+         .dropdown-container {
+         margin: 10px;
+         }
+      </style>
+      <div class="container mt-5">
+         <div class="row mt-4" style="margin-left: -9.2rem;">
+            <div class="col-md-4 dropdown-container">
+               <select class="form-select" id="category1">
+                  <option value="Topic">Topic</option>
+                  <option value="Columna">Columna</option>
+                  <option value="Articulo">Articulo</option>
+               </select>
+            </div>
+            <div class="col-md-4 dropdown-container">
+               <select class="form-select" id="category2">
+                  <option value="Fecha">Fecha</option>
+              
+               </select>
+            </div>
+         </div>
+      </div>
+      <div class="row" style="margin-inline: 8rem;">
+         <div class="col-10" >
+            <div class="row" style="margin-bottom: 2rem;">
+               <div class="col-4">
+                  <div class="card zoomable card-shadow" style="width: 24rem; height: 42rem;max-height: 42rem; border-color: white;">
+                      <div class="card-header" style="background-color: white;">
+                          <div class="row" style="margin-bottom: -1rem;">
+                              <div class="col">
+                                  <p style="font-family: 'Montserrat-Italic';">Columna</p>
+                              </div>
+                              <div class="col">
+                                  <p style="font-family: 'Montserrat-Regular'; font-size: 16px;">27 de diciembre 2023</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="card-body" style="position: relative;">
+                          <img src="./GGWMS.png" class="card-img-top" alt="...">
+                          <div class="row">
+                              <div class="col">
+                                  <h3 style="font-family: BebasNeue; font-size: 28px;">
+                                      <a href="./blog/page.html" target="_blank" style="color: #000; text-align: justify;">Del caos al control: Como un WMS ordena la gestión de inventarios</a>
+                                  </h3>
+                                  <p style="text-align: justify; font-family: 'Montserrat-Regular'; font-size: 18px;">La confiabilidad del inventario es 
+                                    vital para las organizaciones, de ella dependen las planificaciones de abastecimiento, las ventas. En tu experiencia, ¿Cuándo es necesario dar el paso a la adquisición de un WMS? ¿Qué dolores son críticos y no deben dejarse pasar porque impactan la rentabilidad de la organización?</p>
+                              </div>
+                          </div>
+                          <div class="row" style="margin-top: 0.5rem;">
+                              <div class="col">
+                                  <p style="font-size: 15px;">Gerzon Guzman</p>
+                                  <p style="font-size: 15px; margin-top: -1rem;">Consultor WMS</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+               <div class="col-4" >
+                  <div class="card zoomable card-shadow" style="width: 24rem; height: 42rem;max-height: 42rem; border-color: white;">
+                    <div class="card-header" style="background-color: white;">
+                       <div class="row" style="margin-bottom:-1rem">
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Italic';">Articulo</p>
+                          </div>
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Regular';font-size: 16px;">27 de diciembre 2023</p>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="card-body">
+                       <img src="./Art combustible Diego.png" class="card-img-top" alt="..." >
+                       <div class="row">
+                          <div class="col">
+                             <h3 style="font-family: BebasNeue;font-size: 28px;"><a href="./blog/page.html" target="_blank" style="color: #000;text-align: justify;">Evolución de los Costos de Transporte Carretero de Carga </a></h3>
+                             <p style="text-align: justify;font-family: 'Monserrat-Regular';font-size: 18px;">Los costos de transporte han tenido variaciones importantes en los últimos años, algunas de ellas derivadas de la Pandemia, y otros 
+                              como derivaciones de esta misma situación, para basados en el movimiento de los costos del Petróleo y de los bruscos movimientos que ha tenido el IPC. En un año en el que 
+                              las tarifas han tendido a la baja, ¿cuál será la evolución para el próximo año? 
+                             </p>
+                          </div>
+                       </div>
+                       <div class="row" style="margin-top: -0.6rem;">
+                          <div class="col">
+                             <p style="font-size:15px;">Diego Bozzano</p>
+                             <p style="font-size:15px;margin-top: -1rem;">Gerente General</p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 </div>
+                 <div class="col-4" >
+                  <div class="card zoomable card-shadow" style="width: 24rem;height: 42rem;border-color: white;">
+                    <div class="card-header" style="background-color: white;">
+                       <div class="row" style="margin-bottom:-1rem">
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Italic';">Columna</p>
+                          </div>
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Regular';font-size: 16px;">27 de diciembre 2023</p>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="card-body">
+                       <img src="./Col opinion Zullym D.png" class="card-img-top" alt="..." >
+                       <div class="row">
+                          <div class="col">
+                             <h3 style="font-family: BebasNeue;font-size: 28px;"><a href="./blog/page.html" target="_blank" style="color: #000;text-align: justify;">Cliente interno y externo: Como lideramos y gestionamos nuestros esfuerzos para responder a sus necesidades. </a></h3>
+                             <p style="text-align: justify;font-family: 'Monserrat-Regular';font-size: 18px;">En tu experiencia,
+                               ¿Cómo consideras que un enfoque al cliente interno beneficia a la organización y a las personas que trabajan en ella? 
+                              ¿Qué variables consideras fundamentales para el correcto desarrollo de un grato ambiente laboral?... 
+                             </p>
+                          </div>
+                       </div>
+                       <div class="row" style="margin-top: 2rem;">
+                          <div class="col">
+                             <p style="font-size:15px;">Zullym Dominguez</p>
+                             <p style="font-size:15px;margin-top: -1rem;">Gerente de Administración y finanzas</p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 </div>
+            </div>
+            <div class="row" style="margin-bottom: 2rem;">
+               <div class="col-4" >
+                <div class="card zoomable card-shadow" style="width: 24rem;height: 42rem;border-color: white;">
+                  <div class="card-header" style="background-color: white;">
+                     <div class="row" style="margin-bottom:-1rem">
+                        <div class="col">
+                           <p style="font-family: 'Monserrat-Italic';">Columna</p>
+                        </div>
+                        <div class="col">
+                           <p style="font-family: 'Monserrat-Regular';font-size: 16px;">27 de diciembre 2023</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <img src="./GGWMS.png" class="card-img-top" alt="..." >
+                     <div class="row">
+                        <div class="col">
+                           <h3 style="font-family: BebasNeue;font-size: 30px;"><a href="./blog/page.html" target="_blank" style="color: #000;text-align: justify;">Del caos al control: Como un WMS ordena la gestion de inventarios </a></h3>
+                           <p style="text-align: justify;font-family: 'Monserrat-Regular';font-size: 18px;">La confiabilidad del inventario es vital para las organizaciones, de ella dependen las planificaciones de abastecimiento, las ventas. 
+                              En tu experiencia, ¿Cuándo es necesario dar el paso a la adquisición de un WMS? ¿Qué dolores son críticos y no deben dejarse pasar porque impactan la
+                              rentabilidad de la organización?
+                           </p>
+                        </div>
+                     </div>
+                     <div class="row" style="margin-bottom: -4rem;">
+                        <div class="col">
+                           <p style="font-size:15px;">Gerzon Guzman</p>
+                           <p style="font-size:15px;margin-top: -1rem;">Consultor WMS</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+               <div class="col-4" >
+                  <div class="card zoomable card-shadow" style="width: 24rem;height: 42rem;border-color: white;">
+                    <div class="card-header" style="background-color: white;">
+                       <div class="row" style="margin-bottom:-1rem">
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Italic';">Columna</p>
+                          </div>
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Regular';font-size: 16px;">27 de diciembre 2023</p>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="card-body">
+                       <img src="./GGWMS.png" class="card-img-top" alt="..." >
+                       <div class="row">
+                          <div class="col">
+                             <h3 style="font-family: BebasNeue;font-size: 30px;"><a href="./blog/page.html" target="_blank" style="color: #000;text-align: justify;">Del caos al control: Como un WMS ordena la gestion de inventarios </a></h3>
+                             <p style="text-align: justify;font-family: 'Monserrat-Regular';font-size: 18px;">La confiabilidad del inventario es vital para las organizaciones, de ella dependen las planificaciones de abastecimiento, las ventas. 
+                                En tu experiencia, ¿Cuándo es necesario dar el paso a la adquisición de un WMS? ¿Qué dolores son críticos y no deben dejarse pasar porque impactan la
+                                rentabilidad de la organización?
+                             </p>
+                          </div>
+                       </div>
+                       <div class="row">
+                          <div class="col">
+                             <p style="font-size:15px;">Gerzon Guzman</p>
+                             <p style="font-size:15px;margin-top: -1rem;">Consultor WMS</p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 </div>
+                 <div class="col-4" >
+                  <div class="card zoomable card-shadow" style="width: 24rem;height: 42rem;border-color: white;">
+                    <div class="card-header" style="background-color: white;">
+                       <div class="row" style="margin-bottom:-1rem">
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Italic';">Columna</p>
+                          </div>
+                          <div class="col">
+                             <p style="font-family: 'Monserrat-Regular';font-size: 16px;">27 de diciembre 2023</p>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="card-body">
+                       <img src="./GGWMS.png" class="card-img-top" alt="..." >
+                       <div class="row">
+                          <div class="col">
+                             <h3 style="font-family: BebasNeue;font-size: 30px;"><a href="./blog/page.html" target="_blank" style="color: #000;text-align: justify;">Del caos al control: Como un WMS ordena la gestion de inventarios </a></h3>
+                             <p style="text-align: justify;font-family: 'Monserrat-Regular';font-size: 18px;">La confiabilidad del inventario es vital para las organizaciones, de ella dependen las planificaciones de abastecimiento, las ventas. 
+                                En tu experiencia, ¿Cuándo es necesario dar el paso a la adquisición de un WMS? ¿Qué dolores son críticos y no deben dejarse pasar porque impactan la
+                                rentabilidad de la organización?
+                             </p>
+                          </div>
+                       </div>
+                       <div class="row" >
+                          <div class="col">
+                             <p style="font-size:15px;">Gerzon Guzman</p>
+                             <p style="font-size:15px;margin-top: -1rem;">Consultor WMS</p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 </div>
+            </div>
+         </div>
+         <div class="col-2" >
+            <div class="card" style="background-color:#454f58;">
+               <div> 
+                  <h4 style="color: white;">Contactanos</h4>
+               </div>
+               <p style="text-justify: distribute;color: white;">Te interesa formar parte de Do Better?</p>
+               <p><a href="https://dobetter.buk.cl/trabaja-con-nosotros" target="_blank" style="color: #FFDA6A;">Trabaja con Nosotros!</a></p>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-12 col-xl-12" style="margin-left: 55rem;margin-bottom: 5rem; margin-top: rem;">
+         <button type="button" class="btn btn-outline-secondary" style="background-color: #FFDA6A;font-family: BebasNeue;font-size: 20px;color: black;"
+          data-mdb-ripple-color="dark">Ver mas articulos</button>
+         </div>
+      </div>
+   </body>
+   <footer class="bg-dark text-center text-white mt-auto">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Suscribete a nuestro blog </strong>
+                </p>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example29" class="form-control" />
+                  <label class="form-label" for="form5Example29">Correo electronico</label>
+                </div>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribirse
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
